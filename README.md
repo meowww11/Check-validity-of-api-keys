@@ -14,3 +14,8 @@ This script helps you **quickly check which OpenAI API keys are valid** by sendi
 
 ```bash
 pip install requests
+
+## 🛠️ Notes
+1. The script checks keys by making a request to https://api.openai.com/v1/models.
+
+2. Your keys are never saved or shared — everything stays local.
